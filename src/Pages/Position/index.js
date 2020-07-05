@@ -1,11 +1,11 @@
 import React from 'react';
 import {StyleSheet, Text, View, Image} from 'react-native';
-import cart from './cart.png';
+import cart from './../../Icon/cart.png';
 
-const PositionReactNative = () => {
+const Position = () => {
   return (
     <View style={styles.wrapper}>
-      <Text>Materi Positon</Text>
+      <Text>Materi Position</Text>
       <View style={styles.cartWrapper}>
         <Image source={cart} style={styles.iconCart} />
         <Text style={styles.notif}>10</Text>
@@ -17,7 +17,7 @@ const PositionReactNative = () => {
   );
 };
 
-export default PositionReactNative;
+export default Position;
 
 const styles = StyleSheet.create({
   iconCart: {

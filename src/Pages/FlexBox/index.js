@@ -1,10 +1,21 @@
 import React, {Component} from 'react';
 import {Text, View, Image} from 'react-native';
 
-class MateriFlexBox extends Component {
+class FlexBox extends Component {
   render() {
     return (
       <View>
+        <Text
+          style={{
+            fontSize: 18,
+            fontWeight: 'bold',
+            marginTop: 5,
+            marginBottom: 5,
+            textAlign: 'center',
+          }}>
+          Materi FlexBox
+        </Text>
+
         <View style={{backgroundColor: 'grey', flexDirection: 'row'}}>
           <View style={{backgroundColor: '#ee5253', flex: 1, height: 50}} />
           <View style={{backgroundColor: '#feca57', flex: 1, height: 50}} />
@@ -55,4 +66,4 @@ class MateriFlexBox extends Component {
   }
 }
 
-export default MateriFlexBox;
+export default FlexBox;
