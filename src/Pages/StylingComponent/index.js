@@ -7,7 +7,7 @@ import {
   StyleSheet,
   ScrollView,
 } from 'react-native';
-import macbook from './../../Images/macbookpro.jpg';
+import macbook from './../../assets/Images/macbookpro.jpg';
 
 const StylingComponent = () => {
   return (

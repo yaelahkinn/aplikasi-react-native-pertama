@@ -6,6 +6,7 @@ import FlexBox from './Pages/FlexBox';
 import Position from './Pages/Position';
 import PropsDinamis from './Pages/PropsDinamis';
 import StateDinamis from './Pages/StateDinamis';
+import Communication from './Pages/Communication';
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
         <FlexBox />
         <Position />
         <PropsDinamis /> */}
-        <StateDinamis />
+        {/* <StateDinamis /> */}
+        <Communication />
       </ScrollView>
     </View>
   );

@@ -1,14 +1,13 @@
 import React from 'react';
 import {StyleSheet, Text, View, Image} from 'react-native';
-import cart from './../../assets/Icon/cart.png';
+import cart from '../../assets/Icon/cart.png';
 
-const Position = () => {
+const Cart = props => {
   return (
     <View style={styles.wrapper}>
-      <Text>Materi Position</Text>
       <View style={styles.cartWrapper}>
         <Image source={cart} style={styles.iconCart} />
-        <Text style={styles.notif}>10</Text>
+        <Text style={styles.notif}>{props.quantity}</Text>
       </View>
       <View>
         <Text style={styles.text}>Keranjang Belanja anda</Text>
@@ -17,7 +16,7 @@ const Position = () => {
   );
 };
 
-export default Position;
+export default Cart;
 
 const styles = StyleSheet.create({
   iconCart: {
